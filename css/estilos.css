@@ -1,0 +1,60 @@
+a:hover{
+	transition: 1s;
+	color: yellow;  
+	font-size: 1.2rem;
+}
+li a:hover{
+    color: yellow;
+    position: relative;
+    transition: 1s;
+    font-size: 1.2rem;
+}
+body{
+    background: black;
+}
+#linkMenu{
+    color: white;
+    transition: 1s;
+    font-size: 4rem;
+    text-decoration: none;
+}
+#linkMenu:hover{
+    position: relative;
+    transition: 1s;
+    font-size: 4.5rem;
+    text-decoration: none;
+}
+.escalarImagen{
+    transform: scale(1.4,1.4);
+    margin: 10px;
+}
+.imgRedes{
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    padding-right: 70px;
+    list-style: none;
+}
+.escalarImagen{
+    transform: scale(2,2);
+    margin: 10px;
+    animation-name: scale;
+    animation-iteration-count: infinite;
+    animation-duration: 2s;
+}
+@keyframes mode{
+    0%{background-color: black;}
+    100%{background-color: white;}
+}
+@keyframes scale{
+    0%{transform: rotate(35deg);}
+    50%{transform: rotate(-35deg);}
+    100%{transform: rotate(35deg);}
+}
+#sectionMenú{
+    background-color: black;
+    justify-content: center;
+}
+#footer{
+    margin: 50px;
+}
